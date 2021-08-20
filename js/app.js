@@ -23,7 +23,7 @@ function updateTotal (totalId){
     const inputField = document.getElementById('input-field');
     let inputValue = inputField.value;
     const totalCost = deviceCost + memoryCost + storageCost + deliveryCost;
-    if(inputValue == 'stevekakku'){
+    if(inputValue == 'stevekaku'){
         document.getElementById(totalId).innerText = totalCost * ((100-20)/100);
     }
 
